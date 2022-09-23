@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        //reference type
+        //reference type (Classlar referans tiplerdir!!)
         CustomerManager customerManager = new CustomerManager(); //CustomerManager türünde örnek oluşturuyorum.
         CustomerManager customerManager2 = new CustomerManager();
         customerManager =  customerManager2; //customerManager'ın referans numarası cM2'nin referans numarasına eşitlendi. Yani 101, 102 oldu.

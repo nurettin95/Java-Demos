@@ -1,7 +1,7 @@
 public class Product {  //Ürün sınıfı
 
     public Product(int id, String name, String description, double price, int stockAmount, String color){
-        this.id = id;
+        this.id = id; //bu classtaki id this id oluyor.
         this.color = color;
         this.name = name;
         this.description = description;

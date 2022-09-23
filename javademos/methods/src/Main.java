@@ -17,8 +17,10 @@ public class Main {
                 break; // döngüyü bitir artık arama
             }
         }
-
+        //String mesaj="";
         if(varMi){
+            //mesaj = "Sayı mevcuttur: " + aranacak;
+            //mesajVer(mesaj);
             mesajVer("Sayı mevcuttur: " + aranacak);
         }
         else{

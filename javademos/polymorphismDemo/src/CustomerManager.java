@@ -6,6 +6,8 @@ public class CustomerManager {
     }
     public void add(){
         System.out.println("Müşteri eklendi");
+         /*DatabaseLogger logger = new DatabaseLogger();
+    logger.log("Log mesajı");*/ //bağımlı bir sistem
         this.logger.log("log mesajı");
     }
 

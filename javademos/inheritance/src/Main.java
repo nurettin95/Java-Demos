@@ -5,6 +5,8 @@ public class Main {
     Employee employee = new Employee();
 
     EmployeeManager employeeManager = new EmployeeManager();
+    employeeManager.BestEmployee();
+    employeeManager.Add();
     CustomerManager customerManager = new CustomerManager();
 
 
